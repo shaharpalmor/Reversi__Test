@@ -10,7 +10,7 @@ include_directories(include gtest_src/include)
 
 
 add_subdirectory(gtest_src)
-enable_testing()
+
 include_directories(${gtest_src}/include ${gtest_src})
 
 
