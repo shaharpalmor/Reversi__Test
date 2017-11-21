@@ -33,4 +33,5 @@ TEST(ReversiDefaultRulesTest,checkVectorInRversi){
     Point p4(2,3);
     vec1.push_back(p1);
     vec1.push_back(p2);
+
 }
