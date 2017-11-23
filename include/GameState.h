@@ -38,6 +38,8 @@ public:
      */
     GameState& operator = (const GameState& copyGameState);
 
+    bool compare2Vectors(vector<Point *> &v1, vector<Point *> &v2) const;
+
     /**
      * making game state a friend of some classes so that they can use the game state members.
      */

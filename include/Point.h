@@ -18,6 +18,7 @@ public:
     ~Point();
 
     Point& operator =(const Point &point);
+    bool operator ==(const Point &point);
 
     int getX() const;
     int getY() const;

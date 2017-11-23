@@ -8,13 +8,12 @@
 
 
 TEST(TestGameState, TestEquallty) {
-    Board b1(4, 4);
-    GameState g1(&b1);
+    Board *b1 = new Board(4, 4); // Gamestate destructor will delete the board.
+    GameState g1(b1);
     Point p1(0, 0);
 
     GameState g2(g1);
 
-    b1.getCell(p1).setSymbol(PLAYER_1);
-
+    b1->getCell(p1).setSymbol(PLAYER_1);
 
 }

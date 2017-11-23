@@ -39,6 +39,36 @@ GameState::~GameState() {
 
 }
 
+bool GameState::compare2Vectors(vector<Point *> &v1, vector<Point *> &v2) const {
+    bool boolTerm = true;
+    for (unsigned int i = 0; i < v1.size(); ++i) {
+        for (unsigned int j = 0; j < v2.size(); ++j) {
+            if (!v1.at(i)->isEqual(*v2.at(j)))
+                boolTerm = false;
+            else {
+                boolTerm = true;
+                break;
+            }
+        }
+        if (!boolTerm)
+            break;
+    }
+
+    for (unsigned int i = 0; i < v2.size(); ++i) {
+        for (unsigned int j = 0; j < v1.size(); ++j) {
+            if (!v2.at(i)->isEqual(*v1.at(j)))
+                boolTerm = false;
+            else {
+                boolTerm = true;
+                break;
+            }
+        }
+        if (!boolTerm)
+            break;
+    }
+    return boolTerm;
+}
+
 GameState &GameState::operator=(const GameState &copyGameState) {
     if (this != &copyGameState) {
 
@@ -54,7 +84,7 @@ GameState &GameState::operator=(const GameState &copyGameState) {
         }
         vec2.clear();
 
-        // initialzing the new game state.
+        // Initialzing the new game state.
         board = new Board(*copyGameState.board);
 
         for (unsigned int i = 0; i < copyGameState.vec1.size(); i++) {

@@ -85,4 +85,8 @@ Point &Point::operator=(const Point &point) {
     return *this;
 }
 
+bool Point::operator==(const Point &point) {
+    return (x == point.x && y == point.y);
+}
+
 
