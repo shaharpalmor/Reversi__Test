@@ -6,7 +6,9 @@
 #include "gtest/gtest.h"
 #include "GameState.h"
 
-
+/**
+ * checking the copy constructor of game state, by checking a specific cell.
+ */
 TEST(TestGameState, TestEquallty) {
     Board *b1 = new Board(4, 4); // Gamestate destructor will delete the board.
     GameState g1(b1);

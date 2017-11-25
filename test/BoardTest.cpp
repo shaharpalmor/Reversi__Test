@@ -1,10 +1,13 @@
-// Created by Shahar Palmor on 21/11/17.
-// ID 307929927
+// Created by Shahar Palmor & Elad Aharonon 21/11/17.
+// ID 307929927 311200786
 
 #include "gtest/gtest.h"
 #include "Board.h"
 
 
+/**
+ * checking the validity of the board, by the correct row and col.
+ */
 TEST(BoardTest,CheckBoard){
 
     Point outOfBoundPoint(100,100);

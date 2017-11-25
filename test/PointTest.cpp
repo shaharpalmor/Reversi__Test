@@ -5,7 +5,9 @@
 #include "gtest/gtest.h"
 #include "Point.h"
 
-
+/**
+ * test that compares between two points.
+ */
 TEST(TestPoint, TestEquallty) {
     Point p1(-1, 0);
     Point p2(0, -1);

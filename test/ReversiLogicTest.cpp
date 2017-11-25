@@ -1,5 +1,5 @@
-// Created by Shahar Palmor on 21/11/17.
-// ID 307929927
+// Created by Shahar Palmor & Elad Aharonon 21/11/17.
+// ID 307929927 311200786
 
 #include <HumanPlayer.h>
 #include "gtest/gtest.h"
