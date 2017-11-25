@@ -13,7 +13,7 @@
 class ReversiDefaultRules : public GameRules {
 public:
     ReversiDefaultRules(); // Constructor.
-
+    ~ReversiDefaultRules() {}; // Destructor.
     /**
      * make a vector with all the possible moves of symbol.
      * @param symbol The current player.

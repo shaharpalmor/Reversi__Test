@@ -17,6 +17,7 @@ class GameState;
 class GameRules {
 public:
 
+    virtual ~GameRules() {};
     /**
      *  Make the vector of possible moves of "symbol" and also returns it.
      *  Notice the difference with getPossibleMoves function that's only returns it.
