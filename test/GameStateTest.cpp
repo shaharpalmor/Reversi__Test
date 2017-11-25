@@ -16,4 +16,6 @@ TEST(TestGameState, TestEquallty) {
 
     b1->getCell(p1).setSymbol(PLAYER_1);
 
+    Cell g2Cell = g2.getBoard()->getCell(p1);
+    EXPECT_FALSE(g2Cell.getSymbol() == PLAYER_1);
 }

@@ -101,3 +101,7 @@ GameState &GameState::operator=(const GameState &copyGameState) {
 
     return *this;
 }
+
+Board *GameState::getBoard() const {
+    return board;
+}
