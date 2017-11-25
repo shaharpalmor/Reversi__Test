@@ -1,5 +1,5 @@
-// Created by Elad Aharon on 28/10/17.
-// ID: 311200786
+// Created by Elad Aharon & Shahar Palmor on 28/10/17.
+// ID: 311200786 307929927
 
 #ifndef EX02_CELL_H
 #define EX02_CELL_H

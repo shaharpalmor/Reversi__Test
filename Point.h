@@ -1,6 +1,6 @@
 
-// Created by Elad Aharon on 29/10/17.
-// ID: 311200786
+// Created by Elad Aharon & Shahar Palmor on 29/10/17.
+// ID: 311200786 307929927
 //
 
 #ifndef EX02_POINT_H

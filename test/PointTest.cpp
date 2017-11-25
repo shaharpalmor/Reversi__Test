@@ -1,6 +1,6 @@
 
-// Created by Elad Aharon on 21/11/17.
-// ID: 311200786
+// Created by Elad Aharon & Shahar Palmor on 21/11/17.
+// ID: 311200786 307929927
 
 #include "gtest/gtest.h"
 #include "Point.h"

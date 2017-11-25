@@ -1,6 +1,6 @@
 
-// Created by Elad Aharon on 03/11/17.
-// ID: 311200786
+// Created by Elad Aharon & Shahar Palmor on 03/11/17.
+// ID: 311200786 307929927
 //
 
 #ifndef EX02_GAMEMANAGER_H

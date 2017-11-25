@@ -1,6 +1,6 @@
 
-// Created by Elad Aharon on 17/11/17.
-// ID: 311200786
+// Created by Elad Aharon & Shahar Palmor on 17/11/17.
+// ID: 311200786 307929927
 
 #ifndef EX02_GAMESTATE_H
 #define EX02_GAMESTATE_H
